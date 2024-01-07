@@ -1,0 +1,211 @@
+/* header related style */
+
+.header {
+    /* background-color: #fff; */
+    border-radius: 16px;
+    color: #070211;
+    background-image: url('../img/Banner\ Image.png');
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    padding: 200px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-content {
+    max-width: fit-content;
+}
+
+.banner-greeting {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 50px;
+    /* 131.944% */
+}
+
+/* section related styles */
+main section {
+    margin-top: 70px;
+}
+
+.section-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-info {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-des {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-info-container {
+    display: flex;
+}
+
+.ticket-info {
+
+    width: 100%;
+    margin-top: 50px;
+    background-image: url('../img/Vectorrr.png');
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.ticket-title {
+    color: #FFF;
+    margin-bottom: 0;
+    padding-left: 300px;
+    padding-top: 100px;
+    font-size: 64px;
+    letter-spacing: 7.04px;
+    font-family: Merriweather;
+    font-size: 64px;
+}
+
+.ticket-des {
+    padding-left: 300px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.btn {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    width: 100%;
+    height: 482px;
+    padding-top: 100px;text-transform: capitalize;font-family: Inter;
+    font-size: 32px;
+}
+.btn-join{
+    color: #F00;text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+}
+.s-section{
+  text-align: center; padding-left: 150px; width:100%; padding-top: 0%; padding-bottom: 200px;
+}
+.stuff-container{
+    display: flex; width: 100%; gap: 70px;
+}
+.stuff-title{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; margin-bottom: 0;
+}
+.stuff-info{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize; margin-top: 0%;
+}
+.stuff_des{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */ margin-top: 0;
+}
+.stuffs-y{
+    padding-top: 39px;
+}
+.stuff-year{
+    color: #F00;
+}
+.sss{
+    text-align: center; margin: 0;
+}
+.ss{
+    margin: 0; margin-top: 0; padding-bottom: 800px;
+    padding-top: 0;
+}
+.s-title{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; margin-bottom: 0;
+}
+.dis-c{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal; margin-top: 0;
+}
+.s-des{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */ margin-top: 0;
+}
