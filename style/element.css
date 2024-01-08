@@ -130,82 +130,198 @@ main section {
     text-align: center;
     width: 100%;
     height: 482px;
-    padding-top: 100px;text-transform: capitalize;font-family: Inter;
+    padding-top: 100px;
+    text-transform: capitalize;
+    font-family: Inter;
     font-size: 32px;
 }
-.btn-join{
-    color: #F00;text-align: center;
+
+.btn-join {
+    color: #F00;
+    text-align: center;
     font-family: Inter;
     font-size: 20px;
 }
-.s-section{
-  text-align: center; padding-left: 150px; width:100%; padding-top: 0%; padding-bottom: 200px;
+
+.s-section {
+    text-align: center;
+    padding-left: 150px;
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 200px;
 }
-.stuff-container{
-    display: flex; width: 100%; gap: 70px;
+
+.stuff-container {
+    display: flex;
+    width: 100%;
+    gap: 70px;
 }
-.stuff-title{
+
+.stuff-title {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal; margin-bottom: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
 }
-.stuff-info{
+
+.stuff-info {
     color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize; margin-top: 0%;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0%;
 }
-.stuff_des{
+
+.stuff_des {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */ margin-top: 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin-top: 0;
 }
-.stuffs-y{
+
+.stuffs-y {
     padding-top: 39px;
 }
-.stuff-year{
+
+
+.stuff-year {
     color: #F00;
 }
-.sss{
-    text-align: center; margin: 0;
+
+.sss {
+    text-align: center;
+    margin: 0;
 }
-.ss{
-    margin: 0; margin-top: 0; padding-bottom: 800px;
+
+.ss {
+    margin: 0;
+    margin-top: 0;
+    padding-bottom: 800px;
     padding-top: 0;
 }
-.s-title{
+
+.s-title {
     color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal; margin-bottom: 0;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
 }
-.dis-c{
+
+.dis-c {
     color: #F00;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal; margin-top: 0;
+    line-height: normal;
+    margin-top: 0;
 }
-.s-des{
+
+.s-des {
     color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 32px; /* 160% */ margin-top: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    margin-top: 0;
+}
+
+.third-sec {
+    text-align: left;
+    padding-left: 140px;
+}
+
+.t-title {
+    margin-bottom: 0%;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.t-content {
+    margin-top: 0%;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.t-des {
+    margin-top: 0%;
+    padding-top: 0%;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.pic-container {
+    display: flex;
+    gap: 5px;
+    padding-left: 140px;
+}
+
+.pic-item {
+    size-adjust: 200px 200px;
+}
+
+.newsletter {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #FF00000D;
+    height: 500px;
+    margin-left: 135px;
+    margin-right: 75px;
+}
+
+.n-title {
+    margin-top: 0%;
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.news-des {
+    margin-top: 0%;
+    padding-top: 0%;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
 }
