@@ -23,21 +23,21 @@
     max-width: fit-content;
 }
 
-.banner-greeting {
+.banner-greeting { margin-bottom: 0; padding-bottom: 0;
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 50px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.banner-title {
+.banner-title { margin-top: 0; padding-top: 0;
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 50px;
+    font-size: 72px;
     font-style: normal;
     font-weight: 900;
     margin-bottom: 50px;
@@ -343,4 +343,46 @@ text-align: center;
 font-family: Inter;
 font-size: 20px;
 text-transform: capitalize; border: 0;
+}
+.foot{
+    width: 1600px;
+    height: 400px;
+    flex-shrink: 0; background: #070211;
+}
+.address{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+.addr{
+    color: #FFF; text-align: left; padding-left: 140px; padding-top: 100px;
+}
+.contact{
+    color: #FFF; display: flex; 
+}
+.icons{
+    align-items: center; padding-right: 300px; size: 20px 20px; padding-bottom: 50px;
+} 
+.fb{
+    height: 60px; width: 60px; gap: 5px;
+}
+.insta{
+    height: 60px; width: 60px; gap: 5px;
+}
+.tweet{
+    height: 60px; width: 60px; gap: 5px;
+}
+.linkdin{
+    height: 60px; width: 60px; gap: 5px;
+}
+.copyright{ text-align: left; padding-left: 140px;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
